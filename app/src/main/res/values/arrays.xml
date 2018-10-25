@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MyExpenseRecycleViewImg">
+        <item>@mipmap/icon_general</item>
+        <item>@mipmap/icon_food</item>
+        <item>@mipmap/icon_drinking</item>
+        <item>@mipmap/icon_groceries</item>
+        <item>@mipmap/icon_shopping</item>
+        <item>@mipmap/icon_personal</item>
+        <item>@mipmap/icon_entertain</item>
+        <item>@mipmap/icon_movie</item>
+        <item>@mipmap/icon_social</item>
+        <item>@mipmap/icon_transport</item>
+        <item>@mipmap/icon_appstore</item>
+        <item>@mipmap/icon_mobile</item>
+        <item>@mipmap/icon_computer</item>
+        <item>@mipmap/icon_gift</item>
+        <item>@mipmap/icon_house</item>
+        <item>@mipmap/icon_travel</item>
+        <item>@mipmap/icon_ticket</item>
+        <item>@mipmap/icon_book</item>
+        <item>@mipmap/icon_medical</item>
+        <item>@mipmap/icon_transfer</item>
+    </string-array>
+    <string-array name="MyExpenseRecycleViewText">
+        <item>general</item>
+        <item>food</item>
+        <item>drinking</item>
+        <item>groceries</item>
+        <item>shopping</item>
+        <item>personal</item>
+        <item>entertain</item>
+        <item>movie</item>
+        <item>social</item>
+        <item>transport</item>
+        <item>appstore</item>
+        <item>mobile</item>
+        <item>computer</item>
+        <item>gift</item>
+        <item>house</item>
+        <item>travel</item>
+        <item>ticket</item>
+        <item>book</item>
+        <item>medical</item>
+        <item>transfer</item>
+    </string-array>
+    <string-array name="MyIncomeRecycleViewImg">
+        <item>@mipmap/icon_general</item>
+        <item>@mipmap/icon_reimburse</item>
+        <item>@mipmap/icon_salary</item>
+        <item>@mipmap/icon_redpocket</item>
+        <item>@mipmap/icon_parttime</item>
+        <item>@mipmap/icon_bonus</item>
+        <item>@mipmap/icon_investment</item>
+    </string-array>
+    <string-array name="MyIncomeRecycleViewText">
+        <item>general</item>
+        <item>reimburse</item>
+        <item>salary</item>
+        <item>redpocket</item>
+        <item>parttime</item>
+        <item>bonus</item>
+        <item>investment</item>
+    </string-array>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/slidingbackground">
+
+    <RelativeLayout
+        android:id="@+id/iconlayout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/myicon"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_centerInParent="true"
+            android:onClick="myclick"
+            android:src="@mipmap/pass"
+            app:civ_border_color="#2f9c66"
+            app:civ_border_width="2dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iconlayout"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:id="@+id/incomemoney"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_marginLeft="58dp"
+            android:text="收入："
+            android:textColor="@android:color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/incomeamount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/incomemoney"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/incomeamount"
+            android:paddingLeft="10dp"
+            android:text="￥"
+            android:textColor="@android:color/white"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/expensemoney"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_below="@id/incomemoney"
+            android:layout_marginLeft="58dp"
+            android:text="支出："
+            android:textColor="@android:color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/expenseamount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/incomemoney"
+            android:layout_toRightOf="@id/expensemoney"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="25dp" />
+
+
+        <TextView
+            android:id="@+id/expense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/incomemoney"
+            android:layout_toRightOf="@id/expenseamount"
+            android:paddingLeft="10dp"
+            android:text="￥"
+            android:textColor="@android:color/white"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

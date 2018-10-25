@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="58dp"
+    android:background="@drawable/recycle_item">
+
+    <ImageView
+        android:id="@+id/recycle_item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:src="@mipmap/icon_book" />
+
+    <TextView
+        android:id="@+id/recycle_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recycle_item_image"
+        android:layout_centerHorizontal="true"
+
+        android:paddingTop="5dp"
+        android:text="Books"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>
